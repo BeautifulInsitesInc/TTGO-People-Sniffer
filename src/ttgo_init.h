@@ -14,3 +14,4 @@ void ttgoInit(){
     tft.println("It's Alive!");
 
 }
+
