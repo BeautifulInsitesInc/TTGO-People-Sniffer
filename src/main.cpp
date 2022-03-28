@@ -5,7 +5,7 @@
 //#include <LittleFS.h>
 
 
-#define DEBUG
+#define DEBUG // Comment out to remove all Serial.prints
 
 #ifdef DEBUG
 #define out(x) Serial.print(x)
@@ -14,6 +14,7 @@
 #define out(x)
 #define outln(x)
 #endif
+
 
 TFT_eSPI tft = TFT_eSPI();  // Invoke library, pins defined in User_Setup.h
 
